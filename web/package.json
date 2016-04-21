@@ -1,0 +1,21 @@
+{
+  "name": "chomp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIY-Charlotte-Frontend-Engineering/chomp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIY-Charlotte-Frontend-Engineering/chomp/issues"
+  },
+  "homepage": "https://github.com/TIY-Charlotte-Frontend-Engineering/chomp#readme"
+}

@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    
+    font-family: 'Slabo 27px', serif;
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2.5em;
+    margin: 5px;
+}
+
+#newgame {
+    width: 50%;
+    text-align: center;
+    border: 2px solid orange;
+    margin: 0 auto;
+    padding: 1%;
+    border-radius: 3px;
+    
+    position: relative;
+    top: 20%;
+    .color-picker {
+        width: 40px;
+        height: 40px;
+        border: 1px solid black;
+        margin: 10px;
+        display: inline-block;  
+    }
+    
+    button {
+        padding: 10px;
+        width: 40%;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+#gamewindow {
+    text-align: center;
+    
+    #game-board {
+        margin: 0 auto;
+        font-size: 0;
+        width: 56%;
+        .game-space {
+            display: inline-block;
+            box-sizing: border-box;
+            border: 1px solid #333;
+            width: 5%;
+            height: 28px;
+        }
+    }
+}
+
+.red-player {
+    background-color: red;
+}
+
+.blue-player {
+    background-color: blue;
+}
+
+.green-player {
+    background-color: green;
+}
+
+.orange-player {
+    background-color: orange;
+}
